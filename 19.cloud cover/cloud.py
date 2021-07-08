@@ -1,9 +1,7 @@
 #1.read the file into a list
-
-
 with open("cloudin.txt") as cloudin:
     current_line = 0
-    max_length = 10000000001
+    max_length = 1000000000
     temp_sum = 0
     
     temp_list = cloudin.readlines()
@@ -31,8 +29,6 @@ with open("cloudin.txt") as cloudin:
                     max_length = temp_sum
         
         current_line += 1
-
-    print(max_length)
 
 #3. Save into output file
 with open("cloudout.txt", "w") as cloudout:
