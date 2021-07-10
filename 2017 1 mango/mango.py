@@ -18,8 +18,7 @@ if abs(mango_location - c_location) == c_distance:
 else:
     mango_location = -1 * i_distance + i_location
     if abs(mango_location - c_location) != c_distance:
-        #unlikely to happen
-        print("Something wrong happened")
+        print("something went wrong")
 
 print(mango_location)
 
